@@ -60,7 +60,9 @@ public class Caso13 {
 		
 		}
         System.out.println("\n----------------Resultado--------------");
-		System.out.println("La operacion elegida es........"+operacion);
+        System.out.println("Numero 1......................: "+n1);
+        System.out.println("Numero 2......................: "+n2);
+		System.out.println("La operacion elegida es.......: "+operacion);
 		System.out.println("" + res);
 	}
 
