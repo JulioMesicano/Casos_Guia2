@@ -10,12 +10,12 @@ public class Caso6 {
 		System.out.print("Ingrese su sueldo..............:");
 		float sueldo = sc.nextFloat();
 		
-		String calculo = "";
+		float calculo = 0;
 		
 		if (sueldo >2800)
-           calculo=("" + sueldo *0.05);
+           calculo=sueldo *0.05f;
 		else
-			calculo=("" +sueldo* 0.02);
+			calculo=sueldo* 0.02f;
 		
 		System.out.println("\n------------Resultados-----------");
 		System.out.println("Sueldo ingresado.........:"+sueldo);
